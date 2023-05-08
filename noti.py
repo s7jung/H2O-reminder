@@ -1,6 +1,6 @@
 import time
 from plyer import notification
-import water
+import popup
 if __name__ == '__main__':
     while True:
         notification.notify(
