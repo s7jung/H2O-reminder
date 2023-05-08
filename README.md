@@ -18,12 +18,6 @@ The following parameters can be customized in the hydration_reminder.py file:
 * Reminder interval: The interval between reminders in seconds.
 * Recommended water intake: The recommended daily water intake in milliliters, calculated based on user input data in the water_intake_calculator.py file.
 
-## Features
-Utilizes algorithms to calculate optimal water intake based on user input data.
-Interactive GUI for user input.
-Sends desktop notifications reminding the user to drink water at regular intervals.
-Error handling for invalid user input.
-
 Object-oriented design principles to create a well-structured and maintainable codebase.
 ## Future Improvements
 Integration with fitness tracking devices to track water intake and adjust recommendations accordingly.
