@@ -1,23 +1,31 @@
 # Hydration Reminder Program
+The Hydration Reminder Program is a Python-based desktop application that reminds you to drink water at regular intervals throughout the day. It calculates the recommended daily water intake based on user input data such as sex, age, weight, height, and pregnancy status (for women), and sends desktop notifications reminding the user to drink water.
 
-This is a python program that reminds you to drink water at regular intervals based on your personal hydration needs. The program calculates the recommended daily water intake based on your height, sex, age, and other factors, and sends a desktop notification to remind you to drink water.
-
-
-#### Requirements
-To run this program, you'll need:
+## Requirements
+To run the program, you'll need:
 
 * Python 3.6 or higher
-* The plyer package for sending desktop notifications (pip install plyer)
+* The plyer package for sending desktop notifications (install using pip install plyer)
 
+## Usage
+1. Clone this repository or download the hydration_reminder.py and water_intake_calculator.py files to your local machine.
+2. Open the hydration_reminder.py file and run the script using the following command: python hydration_reminder.py.
 
-#### Usage
-Clone this repository or download the water.py and reminder.py files to your local machine.
-Open the water.py file and input your personal information, such as your height, sex, age, etc., to calculate your recommended daily water intake. Save the changes.
-Open the reminder.py file and run the script using python reminder.py. The program will start sending desktop notifications every hour to remind you to drink water.
+The program will ask for user input via an interactive GUI. Once all necessary information is provided, the program will calculate the recommended daily water intake and start sending desktop notifications reminding the user to drink water at regular intervals.
+## Customization
+The following parameters can be customized in the hydration_reminder.py file:
 
+* Reminder interval: The interval between reminders in seconds.
+* Recommended water intake: The recommended daily water intake in milliliters, calculated based on user input data in the water_intake_calculator.py file.
 
-#### Customization
-If you'd like to customize the program to your personal preferences, you can modify the following variables in the reminder.py file:
+## Features
+Utilizes algorithms to calculate optimal water intake based on user input data.
+Interactive GUI for user input.
+Sends desktop notifications reminding the user to drink water at regular intervals.
+Error handling for invalid user input.
 
-* interval: The interval between reminders in seconds.
-* mL_a_day: The recommended daily water intake in milliliters. This value is calculated based on your personal information in the water.py file.
+Object-oriented design principles to create a well-structured and maintainable codebase.
+## Future Improvements
+Integration with fitness tracking devices to track water intake and adjust recommendations accordingly.
+Ability to customize reminder messages and intervals.
+Integration with mobile devices to send reminders outside of desktop environment.
